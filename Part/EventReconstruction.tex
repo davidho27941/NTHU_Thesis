@@ -36,11 +36,11 @@ The top all hadronic decay channel has 2 b-jets and 4 quark jets, all of them in
 \newpage
 
 \subsection{Truth matching}\label{subsec:Truth matching}
-The \textbf{truth matching}, which is also called \textbf{$\Delta$R matching},  is to match the detector simulation(i.e. jet information generate by Delphes) data to truth record(i.e. parton level information).  To calculate the $\Delta R$ value, we will find the daughters of top quarks, W boson and b quark. After the daughters of top quarks is found, we will find the daughters of W bosons. After all, we will get six partons which are comes from the decay of top quark pairs. This six partons can match to the jets identically by considering their distances. The formula of calculating $\Delta R$ is:
+The \textbf{truth matching}, which is also called \textbf{$\Delta$R matching},  is to match the detector simulation(i.e. jet information generate by Delphes) data to truth record(i.e. parton level information).  To calculate the $\Delta R$ value, we will find the daughters of top quarks, W boson and b quark. After the daughters of top quarks is found, we will find the daughters of W bosons. Finally, we will get six partons which are comes from the decay of top quark pairs. This six partons can match to the jets identically by considering their distances. The formula of calculating $\Delta R$ is:
 \begin{equation}
 	\Delta R = \sqrt{\Delta\eta^{2} + \Delta\phi^{2}}
 \end{equation}
-By using the kinematic properties provide in parton level and detector simulation information, we can calculate the the $\Delta R$ value between each parton and jets. After the calculation, we may assign each parton to a specific jet. 
+By using the kinematic properties provide in parton level and detector simulation information, we can calculate the the $\Delta R$ value between each parton and jets. Using the result of calculation, we may assign each parton to a specific jet. 
 
 \subsection{Custom barcode system}\label{subsec:barcode}
 To specify the relation between each parton, and the relation between mothers and daughters, we design a barcode system which helps us to declare the relationship.
@@ -51,7 +51,7 @@ To specify the relation between each parton, and the relation between mothers an
 	\label{fig:barcode}
 \end{figure}
 
-As the 
+In Figure \ref{fig:barcode}, we define a six-digits barcode, the first two digits is to show which top quark is the mother of this parton, the last four digits of sequece is to declare which daughter of top quark is the mother of parton. In case, we can use this barcode system to break six parton(jet) candidates into two subset which contains 3 elements. 
 
 \section{Event reconstruction}\label{sec:Event reconstruction}
 
