@@ -1,0 +1,32 @@
+\chapter{Event Generation}\label{Event Generation}
+
+%This chapter is organized as follow. Section \ref{VBF:CommonSelection} provides ...
+
+
+\section{MC samples}\label{sec:MC sample}
+For data preparation, we generate out dataset using a custom docker image with MadGraph\_aMC@NLO(v2.7.2), Pythia8(v.8.2), and Delphes(v3.4.2) for showering, hadronization, and detector simulation. We apply the ATLAS parametrization during detector simulation.  The data are generated at Leading order, including quantum chromodynamics(QCD). The top mass is configured as $m_{top}=173\ GeV$. We force the W quark decay hadronically into a $(q, q')$ pair. Following is our configuration:
+\\
+
+\begin{adjustbox}{max width=\textwidth}
+\centering
+\begin{lstlisting}[caption={Configuration for generating samples},captionpos=b]
+	generate p p > t t~ QED=0, (t > W+ b, W+ > j j), (t~ > w- b~, w- > j j ) 
+	output <file_path> 
+	launch <file_path> 
+	shower=Pythia8  
+	detector=Delphes 
+	analysis=OFF 
+	done  
+	set nevents = 10000 
+	set iseed = 1 
+	Delphes/cards/delphes_card_ATLAS.tcl
+	done 
+	exit 
+\end{lstlisting}
+\end{adjustbox}
+
+To get a more general performance, we scan the iseed value from 1 to 30000, each value has aroud 100 file with 10 thousand events before event selection. The reason for scanning iseed value is that the iseed value is the key to the random generation. Originally, the program will choose the iseed value randomly and generate different samples. By scanning the issed value, we can check whether the network can works well on differnet iseed number or not.
+
+
+
+
