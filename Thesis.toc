@@ -13,11 +13,12 @@
 \contentsline {subsection}{\numberline {4.1.2}Truth matching}{10}{subsection.4.1.2}%
 \contentsline {subsection}{\numberline {4.1.3}Custom barcode system}{10}{subsection.4.1.3}%
 \contentsline {section}{\numberline {4.2}Event reconstruction}{11}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}$\chi ^{2}$ reconstruction}{11}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.1}$\chi ^{2}$ minimization method}{11}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Machine Learning Approach}{11}{subsection.4.2.2}%
-\contentsline {chapter}{\numberline {5}Discussion}{12}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Result and Discussion}{12}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Invariant mass}{12}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Reconstruct efficiency}{12}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Outlook}{12}{section.5.3}%
 \contentsline {chapter}{\numberline {6}Conclusion}{13}{chapter.6}%
 \contentsline {chapter}{Appendix}{13}{chapter.6}%
 \contentsline {chapter}{Reference}{14}{appendix*.11}%

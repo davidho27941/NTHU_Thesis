@@ -37,26 +37,31 @@ The top all hadronic decay channel has 2 b-jets and 4 quark jets, all of them in
 
 \subsection{Truth matching}\label{subsec:Truth matching}
 The \textbf{truth matching}, which is also called \textbf{$\Delta$R matching},  is to match the detector simulation(i.e. jet information generate by Delphes) data to truth record(i.e. Parton level information).  To calculate the $\Delta R$ value, we will find the daughters of top quarks, W boson, and b quark. After the daughters of top quarks are found, we will find the daughters of W bosons. Finally, we will get six partons that come from the decay of top quark pairs. These six partons can match the jets identically by considering their distances. The formula of calculating $\Delta R$ is:
-
+\\
 \begin{equation}
 	\Delta R = \sqrt{\Delta\eta^{2} + \Delta\phi^{2}}
 \end{equation}
 By using the kinematic properties provide in parton level and detector simulation information, we can calculate the $\Delta R$ value between each parton and jets. Using the result of the calculation, we may assign each parton to a specific jet. 
-
+\\
 \subsection{Custom barcode system}\label{subsec:barcode}
 To specify the relation between each parton, and the relation between mothers and daughters, we design a barcode system that helps us to declare the relationship.
-
-\begin{figure}[h!]
+\begin{figure}[H]
 	\includegraphics[width=0.8\linewidth]{Figures/barcode.pdf}
 	\caption{Design of barcode.}
 	\label{fig:barcode}
 \end{figure}
-
+\newpage
 In Figure \ref{fig:barcode}, we define a six-digit barcode, the first two digits are to show which top quark is the mother of this parton, the last four digits of the sequence is to declare which daughter of the top quark is the mother of parton. In case, we can use this barcode system to break six parton(jet) candidates into two subsets which contains 3 elements. The benefit of using this barcode system is not only can specify the relation without losing the information, but also provide a permutation relationship to our network. We will discuss this in the following section.
 
 \section{Event reconstruction}\label{sec:Event reconstruction}
 
-\subsection{$\chi^{2}$ reconstruction}\label{subsec:chi-square}
+\subsection{$\chi^{2}$ minimization method}\label{subsec:chi-square}
+
+The $\chi^{2}$ minimization method is a traditional method to reconstruct an event. For an event that exists 6 jets, it has about $6!/(2\times2\times2)=90$ possible combinations. It is obvious that the number of probable combinations is propotional to the number of exist jets in an event. The $\chi^{2}$ minimization method will calculate all the candidates and try to find the candidate which has the smallest $\chi^{2}$ value. This method base on the masses of W boson and top quark(or you may consider the difference of the top masses reconstructed by two subsets.). The equation of $\chi^{2}$ minimization in this model is:
+
+\begin{equation}
+	\chi^{2} = \frac{(m_{bqq'} - m_{\bar{b}q''q'''})^{2}}{\sigma^{2}_{\Delta_{m_{bqq'}}}}  + \frac{(m_{qq'} - m_{W})^{2}}{\sigma^{2}_{W}} + \frac{(m _{q''q'''} - m_{W})^{2}}{\sigma^{2}_{W}}
+\end{equation} 
 
 \subsection{Machine Learning Approach}\label{subsec:ML approach}
 

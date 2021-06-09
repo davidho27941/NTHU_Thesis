@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.6)  9 JUN 2021 16:41
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.6)  10 JUN 2021 00:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1366,26 +1366,35 @@ File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
  [9]
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--46
+
+ []
+
 File: Figures/barcode.pdf Graphic file (type pdf)
 <use Figures/barcode.pdf>
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
- [10]
+[10]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 59.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\chi' on input line 59.
+(hyperref)                removing `math shift' on input line 58.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 59.
+(hyperref)                removing `\chi' on input line 58.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 59.
+(hyperref)                removing `superscript' on input line 58.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 58.
 
 ) (./Part/Discussion.tex
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
@@ -1422,17 +1431,17 @@ File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 09C4326ED5AA3DBFC544DBF01593B611;3366.
+(rerunfilecheck)             Checksum: DC5C051F2909EE562F2938003BF1BDF3;3545.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 4 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 31344 strings out of 476919
- 646939 string characters out of 5821841
- 999377 words of memory out of 5000000
- 50723 multiletter control sequences out of 15000+600000
+ 31345 strings out of 476919
+ 646952 string characters out of 5821841
+ 999616 words of memory out of 5000000
+ 50724 multiletter control sequences out of 15000+600000
  414464 words of font info for 111 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  87i,11n,91p,962b,1201s stack positions out of 5000i,500n,10000p,200000b,80000s
