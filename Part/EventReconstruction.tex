@@ -63,42 +63,12 @@ The $\chi^{2}$ minimization method is a traditional method to reconstruct an eve
 	\chi^{2} = \frac{(m_{bqq'} - m_{\bar{b}q''q'''})^{2}}{\sigma^{2}_{\Delta_{m_{bqq'}}}}  + \frac{(m_{qq'} - m_{W})^{2}}{\sigma^{2}_{W}} + \frac{(m _{q''q'''} - m_{W})^{2}}{\sigma^{2}_{W}}
 \end{equation} 
 
+
 \subsection{Machine Learning Approach}\label{subsec:ML approach}
 
-
-%Section \ref{subsec:data_trigger} discusses the triggers used, the trigger efficiencies and the gains of signals with the current setup.
-%\section{Common event selection}\label{VBF:CommonSelection}
-...
-
-%\begin{itemize}
-%	\item Exactly two opposite charged and different flavor leptons ($e\mu+\mu e$)
-%	\item $\pTlead > 22$ \gev, $\pTsublead > 15$ \gev
-%	\item $\mll > 10$ \gev
-%\end{itemize}
-
-
-
-%\begin{table}[!h]
-%	\centering
-%	\caption{Ranking of the BDT training variables \cite{ATLASComNote}.}
-%	\label{tab:ranking}
-%	\scalebox{0.8}{
-	%	\input{Figures/VBFAnalysis/BDTInput/ranking.tex}
-%	}
-%\end{table}
-
-
-
-%\begin{table}[!h]
-%	\centering
-%	\caption{ 
-	%	Event yields in the VBF SR after fitting. Event yields in the highest BDT bin are also presented. The uncertainties include systematic and statistical uncertainties \cite{HWWRun2Paper}.}
-%	\label{tab:ggF_VBF_yields}
-%	\scalebox{0.8}{
-	%	\input{Figures/Cutflow/VBFanalysis/EventYieldVBF.tex}
-%	}
-%\end{table}
-
+For a machine learning model, equivariance and invariance are the important properties that may effect the performance of the model. Such as the computer vision problem, the object should be invariant under translation to prevnet affect the prediction. Convolutional Neural Network(CNN) can produce object recongition outcome that are invariance under translations. The properties of invariance can be generalized to another geometry sturcture, e.g. manifolds and groups. In all hadronic top decay, we have two subsets with the same elements $(b, q, q')$ and $(\bar{b}, q'', q''')$. These subsets should remain invariant under permutations of the input jets order. 
+\\
+Attention mechanism is a architecture that allow the network to propagate the information selectively by using a "mask". By the implement of mask, the neural network can learn from partial information and update the parameters with selected information, and allow network to infer the relationships between different elements in a sequence.
 
 
 

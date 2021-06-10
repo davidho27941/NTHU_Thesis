@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.6)  10 JUN 2021 00:23
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.6)  11 JUN 2021 01:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1396,22 +1396,24 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 58.
 
-) (./Part/Discussion.tex
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
- [11]
+[11]) (./Part/Discussion.tex
+File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
+<./Figures/nthu-logo.jpg>
+ [12]
 Chapter 5.
 ) (./Part/Conclusion.tex
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
- [12
+ [13
 
 ]
 Chapter 6.
 ) (./Part/Appendix.tex)
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
- [13
+ [14
 
 ] (./Part/Reference.tex
 Underfull \hbox (badness 3623) in paragraph at lines 62--68
@@ -1421,12 +1423,12 @@ Underfull \hbox (badness 3623) in paragraph at lines 62--68
 
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
-[14
+[15
 
 ]
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
- [15]) (./Thesis.aux)
+ [16]) (./Thesis.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1440,10 +1442,10 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 Here is how much of TeX's memory you used:
  31345 strings out of 476919
  646952 string characters out of 5821841
- 999616 words of memory out of 5000000
+ 999617 words of memory out of 5000000
  50724 multiletter control sequences out of 15000+600000
  414464 words of font info for 111 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  87i,11n,91p,962b,1201s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.pdf (24 pages).
+Output written on Thesis.pdf (25 pages).
