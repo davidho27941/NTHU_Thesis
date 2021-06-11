@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.6)  11 JUN 2021 11:22
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.6)  11 JUN 2021 16:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1398,54 +1398,92 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
-[11]) (./Part/Discussion.tex
+[11]
+File: Figures/NetworkDiagramAlt.pdf Graphic file (type pdf)
+<use Figures/NetworkDiagramAlt.pdf>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./Part/Discussion.tex
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
  [12]
+File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
+<./Figures/nthu-logo.jpg>
+ [13]
 Chapter 5.
 ) (./Part/Conclusion.tex
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
- [13
+ [14
 
 ]
 Chapter 6.
-) (./Part/Appendix.tex)
-File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
-<./Figures/nthu-logo.jpg>
- [14
-
-] (./Part/Reference.tex
-Underfull \hbox (badness 3623) in paragraph at lines 62--68
-[]\TU/lmr/m/n/10.95 M. Paganini [ATLAS], J. Phys. Conf. Ser. \TU/lmr/bx/n/10.95
- 1085\TU/lmr/m/n/10.95 , no.4, 042031 (2018)
- []
+) (./Part/Appendix.tex
+! Undefined control sequence.
+l.5 \comment
+            {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
 [15
 
 ]
+Appendix A.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 13.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 13.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 13.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 13.
+
+
+Overfull \hbox (2.97423pt too wide) in paragraph at lines 16--16
+[]\TU/lmr/bx/n/17.28 Optimization of the selections for VBF phase
+ []
+
+)
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
- [16]) (./Thesis.aux)
+ [16
+
+] (./Part/Reference.tex
+File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
+<./Figures/nthu-logo.jpg>
+ [17
+
+]
+File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
+<./Figures/nthu-logo.jpg>
+ [18]) (./Thesis.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: DC5C051F2909EE562F2938003BF1BDF3;3545.
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 4 ({)
-### bottom level 
+(rerunfilecheck)             Checksum: D87945120601493C336EF409F22DC833;4706.
+ ) 
 Here is how much of TeX's memory you used:
- 31345 strings out of 476919
- 646952 string characters out of 5821841
- 999618 words of memory out of 5000000
- 50724 multiletter control sequences out of 15000+600000
+ 31357 strings out of 476919
+ 647225 string characters out of 5821841
+ 1001183 words of memory out of 5000000
+ 50735 multiletter control sequences out of 15000+600000
  414464 words of font info for 111 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 87i,11n,91p,962b,1201s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,11n,91p,1141b,1201s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.pdf (25 pages).
+Output written on Thesis.pdf (27 pages).

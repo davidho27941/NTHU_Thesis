@@ -70,6 +70,16 @@ For a machine learning model, equivariance and invariance are the important prop
 \\
 Attention mechanism is a architecture that allow the network to propagate the information selectively by using a "mask". By the implement of mask, the neural network can learn from partial information and update the parameters with selected information, and allow network to infer the relationships between different elements in a sequence.
 \\
-By the invariant feature of attention architecture, rearranging the element in a sequences leave the attention weight unchange. We may use this permutation symmetry presnet the attention-based model can handle the reconstruction of all hadronic top decay process effiently. In case, the network output of the all hadronic top decay process should identify two distint interchangeable subsets, each  contains interchangeable $qq$ pair. This invariant property on the output is the unique feature of our dataset and the model should take into account. 
+By the invariant feature of attention architecture, rearranging the element in a sequences leave the attention weight unchange. We may use this permutation symmetry presnet the attention-based model can handle the reconstruction of all hadronic top decay process effiently. In case, the network output of the all hadronic top decay process should identify two distint interchangeable subsets, each  contains interchangeable $qq‘$ pair. This invariant property on the output is the unique feature of our dataset and the model should take into account. 
+\\
+We propose an attenton-based network, called \textbf{Symmetry Preserving Attention NETwork(SPA-NET)} in this project. Its structure is shown in Figure \ref{fig:architecture}}. The input of SPA-NET is a list of unsort jet informatons, with their 4-momentum $(p_{T}, \eta, \phi, M)$ as well as the b-tag information provided by Delphes. We take the logrithm to $M$ and $p_{T}$ and normalize them to have zero mean and unit variance.  The input jets will be send to the network and be embedded into a D-dimensional latent space represention. After embedding, the output will be send to a stack of transformer encoder layer, this layer will learn the relatioship betwenn each elements in the input sequence. While the encoding finished, the encoded output will be forwarded into a important architechture in this network, a two branchs structure that compute the output individually. There is a transformer encoder in each branch, this encoder layer will extract the information of top quark and the tensor attention layer will produce the top quark distribution.
+\\
+The most important part in this network is the \textbf{Symmetry Preserving Tensor Attention}.
 
-
+\begin{figure}[h]
+	%\captionsetup{justification=raggedright,singlelinecheck=false}
+	\centering
+	\includegraphics[width=0.48\textwidth,angle=270]{Figures/NetworkDiagramAlt.pdf}
+	\caption{ High-level structure of SPA-NET.}
+	\label{fig:architecture}
+\end{figure}
