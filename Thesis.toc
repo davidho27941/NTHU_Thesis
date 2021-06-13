@@ -16,9 +16,10 @@
 \contentsline {subsection}{\numberline {4.2.1}$\chi ^{2}$ minimization method}{11}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Machine Learning Approach}{11}{subsection.4.2.2}%
 \contentsline {chapter}{\numberline {5}Result and Discussion}{15}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Invariant mass}{15}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Reconstruct efficiency}{15}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Outlook}{15}{section.5.3}%
+\contentsline {section}{\numberline {5.1}Invariant mass and reconstruct efficiency }{15}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Reconstructed invariant mass using $\chi ^{2}$ minimization}{15}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Reconstructed invariant mass using SPA-NET}{15}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Outlook}{15}{section.5.2}%
 \contentsline {chapter}{\numberline {6}Conclusion}{16}{chapter.6}%
 \contentsline {chapter}{Appendix}{16}{chapter.6}%
 \contentsline {chapter}{\numberline {A}Appendix}{17}{appendix.A}%
