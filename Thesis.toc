@@ -17,13 +17,13 @@
 \contentsline {subsection}{\numberline {4.2.2}Machine Learning Approach}{11}{subsection.4.2.2}%
 \contentsline {chapter}{\numberline {5}Result and Discussion}{15}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Invariant mass and reconstruct efficiency }{15}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Reconstructed invariant mass using $\chi ^{2}$ minimization}{15}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Reconstructed invariant mass using SPA-NET}{15}{subsection.5.1.2}%
-\contentsline {section}{\numberline {5.2}Outlook}{15}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Conclusion}{16}{chapter.6}%
-\contentsline {chapter}{Appendix}{16}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Appendix}{17}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Event displays for Higgs boson candidates}{17}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Re-estimation of WW theoretical uncertainties with the modified $\ensuremath {\ensuremath {p_{T}}\xspace ^{\mathrm {tot}}}\xspace $ variable}{17}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Optimization of the selections for VBF phase space}{17}{section.A.3}%
-\contentsline {chapter}{Reference}{18}{appendix*.12}%
+\contentsline {subsection}{\numberline {5.1.1}Reconstructed invariant mass using $\chi ^{2}$ minimization}{17}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Reconstructed invariant mass using SPA-NET}{18}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Outlook}{18}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Conclusion}{19}{chapter.6}%
+\contentsline {chapter}{Appendix}{19}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Appendix}{20}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Event displays for Higgs boson candidates}{20}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Re-estimation of WW theoretical uncertainties with the modified $\ensuremath {\ensuremath {p_{T}}\xspace ^{\mathrm {tot}}}\xspace $ variable}{20}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Optimization of the selections for VBF phase space}{20}{section.A.3}%
+\contentsline {chapter}{Reference}{21}{appendix*.17}%
