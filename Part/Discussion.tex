@@ -4,9 +4,71 @@ In this chapter, we will discuss out result and compare the performance between 
 
 \section{Invariant mass and reconstruct efficiency }\label{sec:inv mass and reco eff}
 
+Before discussing the result, we should define the category for the reconstruct efficiency. In case, treating the truth matching result as the taregt and the prediction of $\chi^{2}$ or SPA-NET may produce three kind of results:
+
+\begin{itemize}
+	\item Correct matched: An event that both top quarks are correctly predict by reconstruction method.
+	\item Incorrect matched: An event that one or both top quarks is incorrectly predict by reconstruction method.
+	\item Unmatched: An event that one of the truth match result contains an element that does not match to any jets.
+\end{itemize}
+Base on the category  above, we can compute the reconstruct efficiency. For the reconstruct efficiency, we separate into two parts: event-based efficiency and quark-based efficiency. For event-based efficiency, we will calculate the efficiency base on how many \textbf{events} are matched correctly, iincorrectly, and unmatched. Meanwhile, the quark-based efficiency calculate the efficiency base on how much \textbf{quarks} are assigned correctly. The efficiency is shown in the table below:
+\begin{table}[H]
+	%\captionsetup{justification=raggedright,singlelinecheck=false}
+	\caption{ Performance of the $\chi^2$ and SPA-NET assignments assessed by per-event efficiency $\epsilon^{event}$ and per-top efficiencies $\epsilon^{top}$ inclusively and by jet multiplicity \Njets. %\MF(13+6x6.5=52
+	}
+	\centering
+	\begin{tabular}{c c  c  c  c c  c}
+		\hline
+		\hline
+		& \multicolumn{3}{c}{$\chi^2$ Method} & \multicolumn{3}{c}{SPA-NET }\\
+		\hspace{0.2cm}\Njets & \hspace{0.15cm} \epsevent & $\epstoptwo$ & \hspace{0.15cm} $\epstopone$ \hspace{0.15cm} & \hspace{0.15cm} \epsevent & $\epstoptwo$ & \hspace{0.15cm} $\epstopone$ \hspace{0.15cm}   \\
+		\midrule
+		6          & 61.8\% & 65.0\% & 24.2\% & 80.7\% & 84.1\% & 56.7\% \\
+		7          & 40.8\% & 50.4\% & 24.6\% & 66.8\% & 75.7\% & 56.2\% \\
+		$\geq$8    & 23.2\% & 35.5\% & 20.2\% & 52.3\% & 66.2\% & 52.9\% \\
+		\midrule     
+		\vspace{0.2cm}
+		\textbf{Inclusive}  &\textbf{ 37.7}\% & \textbf{47.0}\% & \textbf{23.0\%} & \textbf{63.7}\% &\textbf{73.5}\% &\textbf{55.2\%} \\
+		\hline
+	\end{tabular}
+	
+	\label{tab:eps}
+\end{table}
+The $\chi^{2}$ has perform a $37.7\%$ efficiency on over all events, while SPA-NET archieves a efficiency $63.7\%$. The $\chi^{2}$ method has the best performance on 6 jets category and has the worst effort on the category that an event contains more than 8 jets. The SPA-NET perform much better the $\chi^{2}$ in all category. For the event that containes two identifiable, the $\chi^{2}$ method archieves an efficiency $\epsilon^{top}_{2}$ $65.0\%$, and SPA-NET archieves an $\epsilon^{top}_{2}$ $84.1\%$. Due to we train the SPA-NET we the events that contain two top quarks, so it is reasonable that the $\epsilon^{top}_{1}$ of SPA-NET is lower than $\epsilon^{top}_{2}$. Also, since our definition of euqation \ref{eqn:chi2} is base on the difference between reconstruct invariant mass of 2 two quark candidates, so a event that only contains one identifiable top quark, $\chi^{2}$ method is hard to assign the jet properly. Note that in our evaluation dataset, 8.1\% of events in which both tops are identifiable have at least one $b$-quark matched to non-$b$-tagged jets. These quarks, which are impossible for the $\chi^2$ to correctly reconstruct, are reconstructed by SPA-NET with an efficiency of 29.4\%. 
+
 \subsection{Reconstructed invariant mass using $\chi^{2}$ minimization}\label{subsec:reco inv mass chi2}
 
+Using $\chi^{2}$ minimization, we may obtain the best assignment under the constraint of parameters. In this project, the parameters are configured as: $m_{W}=81.3GeV$, $\sigma_{W} = 12.3GeV$, and $\sigma_{m_{bjj}}=26.3GeV$, all of the parameters are found by fitting the mass distribution of W boson and top quark. While computing $\chi^{2} value$, we use the b-tagging information to assign the b quark candidates. This may help to reduce the number of permutations but prevent the event that contains a jet mis-tagged be assigned correctly.
+
+Following is the reconstruct mass distribution of W boson and top quark using $\chi^{2}$ minimization method.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Figures/network_w_quark_stacked_chi2.pdf}
+	\caption{W boson mass reconstructed by $\chi^{2}$ minimization method}
+	\label{fig: chi2 reco Wboson}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Figures/network_t_quark_stacked_chi2.pdf}
+	\caption{ Top quark mass reconstructed by $\chi^{2}$ minimization method}
+	\label{fig: chi2 reco t quark}
+\end{figure}
+
 \subsection{Reconstructed invariant mass using SPA-NET}\label{subsec:reco inv mass spa-net}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Figures/network_w_quark_stacked.pdf}
+	\caption{W boson mass reconstructed by SPA-NET}
+	\label{fig: spanet reco Wboson}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Figures/network_t_quark_stacked.pdf}
+	\caption{ Top quark mass reconstructed by SPA-NET}
+	\label{fig: spanet reco t quark}
+\end{figure}
 
 \section{Outlook}\label{sec:outlook}
 
