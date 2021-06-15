@@ -100,7 +100,7 @@ To obtain the probability distribution $P^{L}$ and $P^{R}$, we apply a 3-dimensi
 	P(i,j,k) = \frac{exp O^{ijk}}{\sum_{ijk} exp O^{ijk}}
 \end{equation}
 \\
-We use e.q. \ref{eqn:PDF} produce the individual probability distribution of two top quarks and produce the single triplet from each by selecting the peak of these distributions. 
+We use equation \ref{eqn:PDF} produce the individual probability distribution of two top quarks and produce the single triplet from each by selecting the peak of these distributions. 
 \\
 During the training, a suitable loss function is indeed to deal with the double output probability distributions. We design the loss function base on the cross-entropy between the output probability and truth distribution on the all hadronic top decay. The loss function must ensure the symmetry the top quark pairs are invariant concerning the permutation $tt' \leftrightarrow t't$.  We create a symmetry loss function $\mathcal{L}$ by the following function:
 \\
@@ -108,10 +108,16 @@ During the training, a suitable loss function is indeed to deal with the double 
 	\mathcal{L} = min(\mathcal{L}_{1}(P^{L}, T_{1}, P^{R}, T_{2}), \mathcal{L}_{1}(P^{L}, T_{2}, P^{R}, T_{1}))
 \end{equation}
 \\
-Where $\mathcal{L}_{1}(P_{1}, T_{1}, P_{2}, L_{2}) = \mathcal{H}(T_{1}, P_{1}) +\mathcal{H}(T_{2}, P_{2})$, and $\mathcal{H}$ is the cross-entropy that $\mathcal{H} = \sum_{(x,y)\in (X,Y)} -xlog(y)$. It is possible that both two branch produce the same output pairs. To make sure the network produce unique predictions, we will select the higher probability one and re-evaluate the other one, then compute the loss function.
+Where $\mathcal{L}_{1}(P_{1}, T_{1}, P_{2}, L_{2}) = \mathcal{H}(T_{1}, P_{1}) +\mathcal{H}(T_{2}, P_{2})$, and $\mathcal{H}$ is the cross-entropy that $\mathcal{H} = \sum_{(x,y)\in (X,Y)} -xlog(y)$. It is possible that both two branch produce the same output pairs. To make sure the network produce unique predictions, we will select the higher probability one and re-evaluate the other one, then compute the loss function. The Figure \ref{fig:output} is a example of the output produce by SPA-NET.
 
 
-
+\begin{figure}[H]
+	%\captionsetup{justification=raggedright,singlelinecheck=false}
+	\centering
+	\includegraphics[width=0.8\textwidth]{Figures/typical_output.pdf}
+	\caption{A visualization of the example single event output produce by SPA-NET. The top two plots is the projected $b$ quark distribution, and the bottom two plots is the $qq$ distribution respectly. }
+	\label{fig:output}
+\end{figure}
 
 
 

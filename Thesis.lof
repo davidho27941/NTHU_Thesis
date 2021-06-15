@@ -8,10 +8,12 @@
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Demonstration of distributions.\relax }}{9}{figure.caption.9}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Design of barcode.\relax }}{10}{figure.caption.10}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces High-level structure of SPA-NET.\relax }}{13}{figure.caption.11}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces A visualization of the example single event output produce by SPA-NET. The top two plots is the projected $b$ quark distribution, and the bottom two plots is the $qq$ distribution respectly. \relax }}{14}{figure.caption.12}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces W boson mass reconstructed by $\chi ^{2}$ minimization method\relax }}{17}{figure.caption.13}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Top quark mass reconstructed by $\chi ^{2}$ minimization method\relax }}{17}{figure.caption.14}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces W boson mass reconstructed by SPA-NET\relax }}{18}{figure.caption.15}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Top quark mass reconstructed by SPA-NET\relax }}{18}{figure.caption.16}%
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces W boson mass reconstructed by $\chi ^{2}$ minimization method\relax }}{17}{figure.caption.14}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces W boson mass reconstructed by SPA-NET\relax }}{17}{figure.caption.15}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Top quark mass reconstructed by $\chi ^{2}$ minimization method\relax }}{18}{figure.caption.16}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Top quark mass reconstructed by SPA-NET\relax }}{18}{figure.caption.17}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces ROC curve of SPA-NET apply on events with one reconstructable top.\relax }}{19}{figure.caption.18}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces ROC curve of SPA-NET apply on events with two reconstructable top.\relax }}{19}{figure.caption.19}%
 \addvspace {10\p@ }
