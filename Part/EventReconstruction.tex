@@ -5,7 +5,7 @@ In this chapter, we will first explain the way we analysis the dataset, then how
 \section{Data analysis}\label{sec:Data analysis}
 
 \subsection{Event selection}\label{subsec:Event selection}
-The top all hadronic decay channel has 2 b-jets and 4 quark jets, all of them in our configuration are not in the boosted region. Follow the event selection used in the reference\cite{Mccarthy:2015ucy},  we apply a event selection that an event should at least exists \textbf{2 b-jets} and \textbf{4 quark jets} satisfied $p_{T}$ larger than \textbf{25 GeV} and $|\eta|$ less than \textbf{2.5}. A cutflow table and figure can help us to understand how many events are killed by the selections. We may apply 5 cuts and see the evolution of survived event numbers. The rule of cuts is shown in Table \ref{table:cuts}, and the cutflow is shown in Figure \ref{fig:cutflow}. As the result, we found around 18\~20\% of events will survive after the event selection. 
+The top all hadronic decay channel has 2 b-jets and 4 quark jets, all of them in our configuration are not in the boosted region. Follow the event selection used in the reference\cite{Mccarthy:2015ucy},  we apply a event selection that an event should at least exists \textbf{2 b-jets} and \textbf{4 quark jets} satisfied $p_{\rm T}$ larger than \textbf{25 GeV} and $|\eta|$ less than \textbf{2.5}. A cutflow table and figure can help us to understand how many events are killed by the selections. We may apply 5 cuts and see the evolution of survived event numbers. The rule of cuts is shown in Table \ref{table:cuts}, and the cutflow is shown in Figure \ref{fig:cutflow}. As the result, we found around 18 $\sim$ 20\% of events will survive after the event selection. 
 
 \begin{center}
 	\begin{table}[h]
@@ -54,28 +54,20 @@ To specify the relation between each parton, and the relation between mothers an
 \end{figure}
 \newpage
 In Figure \ref{fig:barcode}, we define a six-digit barcode, the first two digits are to show which top quark is the mother of this parton, the last four digits of the sequence is to declare which daughter of the top quark is the mother of parton. In case, we can use this barcode system to break six parton(jet) candidates into two subsets which contains 3 elements. The benefit of using this barcode system is not only can specify the relation without losing the information, but also provide a permutation relationship to our network. We will discuss this in the following section.
-
 \section{Event reconstruction}\label{sec:Event reconstruction}
-
 \subsection{$\chi^{2}$ minimization method}\label{subsec:chi-square}
-
 The $\chi^{2}$ minimization method is a traditional method to reconstruct an event. For an event that exists 6 jets, it has about $6!/(2\times2\times2)=90$ possible combinations. The number of probable combinations is proportional to the number of existing jets in an event. The $\chi^{2}$ minimization method will calculate all the candidates and try to find the candidate which has the smallest $\chi^{2}$ value. This method base on the masses of the W boson and top quark(or you may consider the difference of the top masses reconstructed by two subsets.). The equation of $\chi^{2}$ minimization in this model is:
-
 \begin{equation}\label{eqn:chi2}
 	\chi^{2} = \frac{(m_{bqq'} - m_{\bar{b}q''q'''})^{2}}{\sigma^{2}_{\Delta_{m_{bqq'}}}}  + \frac{(m_{qq'} - m_{W})^{2}}{\sigma^{2}_{W}} + \frac{(m _{q''q'''} - m_{W})^{2}}{\sigma^{2}_{W}}
 \end{equation} 
-
-
 \subsection{Machine Learning Approach}\label{subsec:ML approach}
-
 For a machine learning model, equivariance and invariance are the important properties that may affect the performance of the model. Such as the computer vision problem, the object should be invariant under translation to prevent affect the prediction. Convolutional Neural Network(CNN) can produce object recognition outcomes that are invariant under translations. The properties of invariance can be generalized to another geometry structure, e.g. manifolds and groups. In all hadronic top decay, we have two subsets with the same elements $(b, q, q')$ and $(\bar{b}, q'', q''')$. These subsets should remain invariant under permutations of the input jets order. 
 \\
-The attention mechanism is an architecture that allows the network to propagate the information selectively by using a "mask". By the implementation of the mask, the neural network can learn from partial information and update the parameters with selected information, and allow the network to infer the relationships between different elements in a sequence.
+The attention mechanism is an architecture that allows the network to propagate the information selectively by using a  ``mask''. By the implementation of the mask, the neural network can learn from partial information and update the parameters with selected information, and allow the network to infer the relationships between different elements in a sequence.
 \\
-By the invariant feature of attention architecture, rearranging the elements in a sequence leaves the attention weight unchanged. We may use this permutation symmetry present the attention-based model can handle the reconstruction of all hadronic top decay process efficiently. In case, the network output of the all hadronic top decay process should identify two distinct interchangeable subsets, each contains interchangeable $qq‘$ pair. This invariant property on the output is the unique feature of our dataset and the model should take into account. 
+By the invariant feature of attention architecture, rearranging the elements in a sequence leaves the attention weight unchanged. We may use this permutation symmetry present the attention-based model can handle the reconstruction of all hadronic top decay process efficiently. In case, the network output of the all hadronic top decay process should identify two distinct interchangeable subsets, each contains interchangeable $qq'$ pair. This invariant property on the output is the unique feature of our dataset and the model should take into account. 
 \\
-
-We propose an attention-based network, called \textbf{Symmetry Preserving Attention NETwork(SPA-NET)} in this project. Its structure is shown in Figure \ref{fig:architecture}}. The input of SPA-NET is a list of unsort jet information, with their 4-momentum $(p_{T}, \eta, \phi, M)$ as well as the b-tag information provided by Delphes. We take the logarithm to $M$ and $p_{T}$ and normalize them to have zero mean and unit variance.  The input jets will be sent to the network and be embedded into a D-dimensional latent space representation. After embedding, the output will be sent to a stack of transformer encoder layers, this layer will learn the relationship between each element in the input sequence. While the encoding is finished, the encoded output will be forwarded into an important architecture in this network, a two branches structure that computes the output individually. There is a transformer encoder in each branch, this encoder layer will extract the information of top quark and the tensor attention layer will produce the top quark distribution.
+We propose an attention-based network, called \textbf{Symmetry Preserving Attention NETwork(SPA-NET)} in this project. Its structure is shown in Figure \ref{fig:architecture}}. The input of SPA-NET is a list of unsort jet information, with their 4-momentum $(p_{\rm T}, \eta, \phi, M)$ as well as the b-tag information provided by Delphes. We take the logarithm to $M$ and $p_{T}$ and normalize them to have zero mean and unit variance.  The input jets will be sent to the network and be embedded into a D-dimensional latent space representation. After embedding, the output will be sent to a stack of transformer encoder layers, this layer will learn the relationship between each element in the input sequence. While the encoding is finished, the encoded output will be forwarded into an important architecture in this network, a two branches structure that computes the output individually. There is a transformer encoder in each branch, this encoder layer will extract the information of top quark and the tensor attention layer will produce the top quark distribution.
 \\
 The most important part in this network is the \textbf{Symmetry Preserving Tensor Attention}. Consider a set of weight $\theta \in \mathbb{R}^{D\times D\times D}$, This $\theta$ is not inherently symmetric at all. To make the $\theta$ become an invariant attention weighting, we apply the following transformation(eq. \ref{eqn:SPTA}). This transformation will transform the $\theta$ into an auxiliary weights tensor $S^{ijk}\in R^{D\times D\times D}$. Using $S^{ijk}$ and the embedded jets tensor $X \in \mathbb{R}^{N\times D}$(N is the number of jets), we can calculate the dot-product attention. The dot-product attention working in flat Euclidean space and produce the output tensor $O^{ijk}$. The summation product tensor $S^{ijk}$ guarantees the interchangeable of the first two dimensions of $S$ will be symmetric and ensuring that $O^{ijk}=O^{jik}$. These properties enforcing the $qq'$ invariance.
 \\
@@ -96,8 +88,8 @@ The most important part in this network is the \textbf{Symmetry Preserving Tenso
 \\
 To obtain the probability distribution $P^{L}$ and $P^{R}$, we apply a 3-dimensional softmax on $O^{ijk}$ to generate the joint triplet probability distribution.
 \\
-\begin{equation}[h]\label{eqn:PDF}
-	P(i,j,k) = \frac{exp O^{ijk}}{\sum_{ijk} exp O^{ijk}}
+\begin{equation}\label{eqn:PDF}
+	P(i,j,k) = \frac{exp\ O^{ijk}}{\sum_{ijk} exp\ O^{ijk}}
 \end{equation}
 \\
 We use equation \ref{eqn:PDF} produce the individual probability distribution of two top quarks and produce the single triplet from each by selecting the peak of these distributions. 
