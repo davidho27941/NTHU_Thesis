@@ -6,40 +6,15 @@
 \newcommand{\comment}[1]{}
 %==================== Higgs ====================%
 
-At Large Hadron Collider(LHC), two protons collide with very high energy and produce many kinds of products. A process that $pp$ collision produces a pair of Top quark and result in the 6 jets final state is called \textbf{Full Hadronic Top-quark-pair decay}. This process has a very complicated signature due to a large number of combinations. These jets produced by the top quark pair is hard to tag as a specific parton correctly. A traditional method is to reconstruct the event using $\chi^{2}$ reconstruction, but it takes such a long time to compute and cannot provide enough accuracy to reconstruct an event. The importance of studying Top quark and its full hadronic decay channel is 1. Top quark is the most heaviest  fundamental particle in standard model and will decay before hadronization, 2. The brach ratio of full hardonic decay is the biggest part in Top quark decay(46\%). 
+At Large Hadron Collider(LHC), two protons collide with very high energy and produce many kinds of products. A process that $pp$ collision produces a pair of Top quark and result in the 6 jets final state is called \textbf{Full Hadronic Top-quark-pair decay}. This process has a very complicated signature due to a large number of combinations produce by the possible permutation of final state jets. These jets produced by the top quark pair is hard to tag as a specific daughter of top quarks correctly. A traditional method is to reconstruct the event using $\chi^{2}$ reconstruction, but it takes a long time to compute and cannot provide enough accuracy(about 30\% or less) to reconstruct an event. The importance of studying Top quark and its full hadronic decay channel is 1. Top quark is the most heaviest  fundamental particle in standard model and will decay before hadronization, 2. The branching ratio of full hadonic decay is the biggest part in Top quark decay(46\%). 
 \\
-For a problem that contains a large amount of data and highly requires computing resources, machine learning can widely provide powerful support on solving the problem and helps to reduce the time-wasting. The machine learning method helps to discover physics phenomena with very outstanding effort. A remarkable discovery that helps by machine learning is the discovery of Higgs Boson. Both CMS and ATLAS groups apply the machine learning method to promote the searching of Higgs Boson. \cite{Aad:2012tfa}\cite{Chatrchyan:2012ufa}
+For a problem that contains a large amount of data and highly requires computing resources, machine learning can widely provide powerful support on solving the problem and helps to reduce the CPU time. The machine learning method helps to discover physics phenomena with very outstanding effort. A remarkable discovery that helps by machine learning is the discovery of Higgs Boson. Both CMS and ATLAS groups apply machine learning methods to promote the search for the Higgs Boson. \cite{Aad:2012tfa}\cite{Chatrchyan:2012ufa}
 \\
-In this thesis, we perform a novel architechture for parton-jet assignment problem. This method is base on the state-of-the-art machine learning technology, Attention mechanism. We call this novel ML model \textbf{Symmetry Preserving Attention NETworks (SPA-NET)}. By applying attention networks, the SPA-NET perform a outstanding performance compare to traditional method while avoiding combinatorial explosion. And thanks to the natural properties of attention network, the 
-network reflect the permutation symmetry naturally and provide a chance to explore in set-based output. 
+In this thesis, we develop a novel architechture for parton-jet assignment problem. This method is base on the state-of-the-art machine learning technology, Attention mechanism.\cite{A.Vaswani:2017} We call this novel ML model \textbf{Symmetry Preserving Attention NETworks (SPA-NET)}. By applying attention networks, the SPA-NET perform a outstanding performance compare to traditional method while avoiding combinatorial explosion. And thanks to the natural properties of attention network, the 
+network reflect the permutation symmetry naturally and provide a chance to explore the model with permutation symmetry. 
+\\
+This work is done by the collaboration between Nation Tsing Hua University(Ta-Wei Ho), University of Washington(Shih-Chieh Hsu), and University of California Irvine(Mike Fenton, Alexander Shmakov, Daiel Whiteson, and Pierre Baldi). Mike and I focus on the physics concept, design the data format, and generate datasets. Alexander provide a techical support and machine learning network setup. 
 \\
 We will discuss the Top physics and the concept of machine learning in chapter 2; and explain our event generation and simulation configuration in chapter 3; then introduce how we analyze the dataset and reconstruct the event using traditional method and ML approach in chapter 4. We will discuss our work in chapter 5 and summerize in chapter 6.
 
-\comment{
-\begin{figure}[!h]
-	\graphicspath{ {./Figures/} }
-	\centering
-	\begin{minipage}[h]{0.45\textwidth}
-		\includegraphics[width=1\linewidth]{/Introduction/Higgs/XsecHiggs}
-	\end{minipage}
-	\begin{minipage}[h]{0.54\textwidth}
-		\includegraphics[width=1\linewidth]{/other/HIGGS_PRO}
-	\end{minipage}
-	\caption{Expected cross-sections of the productions of the Higgs bosons (left). The Feynman diagrams of the leading production modes of the Higgs boson which further decays to  $WW^{(*)}$ (right). Letter "V" represents a W or Z boson \cite{ATLAS:2014aga}.}
-	\label{fig:Higgs_pro}
-\end{figure}
 
-
-\begin{figure}[!h]
-	\graphicspath{ {./Figures/} }
-	\centering
-	\includegraphics[width=0.5\linewidth]{/Introduction/Higgs/HiggsBR}
-	\caption{Branching ratios of decays of Higgs bosons \cite{PDGReview}.}
-	\label{fig:Higgs_decay}
-\end{figure}
-
-}
-
-
-
-%==================== VBF HWW ====================%
