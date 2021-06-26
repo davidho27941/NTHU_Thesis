@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.6)  19 JUN 2021 22:07
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.6)  26 JUN 2021 01:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1275,7 +1275,10 @@ File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
  [3
 
-] (./Thesis.lof)
+] (./Thesis.lof
+Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
+ex-text;!
+)
 \tf@lof=\write7
 \openout7 = `Thesis.lof'.
 
@@ -1287,7 +1290,7 @@ File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 ]) (./Part/Introduction.tex
 Chapter 1.
 
-Overfull \hbox (2.34828pt too wide) in paragraph at lines 9--19
+Overfull \hbox (2.34828pt too wide) in paragraph at lines 9--18
 \TU/lmr/m/n/10.95 Ho), University of Washington(Shih-Chieh Hsu), and University
  of California Irvine(Mike
  []
@@ -1301,6 +1304,13 @@ File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
  [2]
 Chapter 2.
+
+Overfull \hbox (4.14423pt too wide) in paragraph at lines 6--9
+\TU/lmr/bx/n/10.95 all-hadronic channel\TU/lmr/m/n/10.95 , \TU/lmr/bx/n/10.95 s
+emi-leptonic channel\TU/lmr/m/n/10.95 , and \TU/lmr/bx/n/10.95 dileptonic chann
+el\TU/lmr/m/n/10.95 . The branch-
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
@@ -1430,6 +1440,10 @@ File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 [13]
 File: Figures/typical_output.pdf Graphic file (type pdf)
 <use Figures/typical_output.pdf>
+Missing character: There is no ′ (U+2032) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ′ (U+2032) in font [lmroman12-regular]:mapping=t
+ex-text;!
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
  [14]
@@ -1530,10 +1544,10 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 Here is how much of TeX's memory you used:
  31411 strings out of 476919
  648809 string characters out of 5821841
- 1002852 words of memory out of 5000000
+ 1002865 words of memory out of 5000000
  50786 multiletter control sequences out of 15000+600000
  414464 words of font info for 111 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 87i,16n,91p,2001b,1201s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,16n,91p,2009b,1201s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Thesis.pdf (34 pages).
