@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.6)  28 JUN 2021 15:04
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.6)  28 JUN 2021 21:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1521,9 +1521,14 @@ File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
  [24
 
 ]
-Underfull \hbox (badness 4366) in paragraph at lines 96--102
-[]\TU/lmr/m/n/12 A. M. Sirunyan \TU/lmr/m/it/12 et al. \TU/lmr/m/n/12 [CMS], JI
-NST \TU/lmr/bx/n/12 13\TU/lmr/m/n/12 , no.05, P05011 (2018)
+Underfull \hbox (badness 10000) in paragraph at lines 79--82
+[]\TU/lmr/m/n/12 Hung-Yi, Lee, “NTU course lecture note-Transformer” https://
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 127--132
+\TU/lmr/m/n/12 Violating Observables in 2HDM,” [arXiv:2012.00773 [hep-ph]]. htt
+ps://
  []
 
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
@@ -1536,12 +1541,12 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 2F3F80EAA04ACACE475F2DC60C525D37;3969.
  ) 
 Here is how much of TeX's memory you used:
- 31411 strings out of 476919
- 648809 string characters out of 5821841
- 1002905 words of memory out of 5000000
- 50786 multiletter control sequences out of 15000+600000
- 414464 words of font info for 111 fonts, out of 8000000 for 9000
+ 31423 strings out of 476919
+ 649018 string characters out of 5821841
+ 1003905 words of memory out of 5000000
+ 50792 multiletter control sequences out of 15000+600000
+ 415133 words of font info for 117 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 87i,16n,91p,2006b,1201s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,16n,91p,2006b,1202s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Thesis.pdf (34 pages).
