@@ -1,18 +1,22 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The schematic of Top quark decay channels.\cite {Mccarthy:2015ucy}\relax }}{4}{figure.caption.5}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces How self-attention works.\cite {HY.Lee:2019}\relax }}{5}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The schematic of Top quark decay channels\cite {Mccarthy:2015ucy}. Due to its characteristic, it will decay into W boson and b quark almost 100\%. Considering the decay channel of W boson, there are three combinations that forming the final states of fully hadronic top decay.\relax }}{4}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces A demonstration of how self-attention works\cite {HY.Lee:2019}. The basic of attention is to decompose the input sequence into three bases. The network will extract the information from these bases. The computation shown in figure is a stage that computing the attention score between each elements in a sequence.\relax }}{6}{figure.caption.6}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Cutflow of all hadronic top decay.\relax }}{10}{figure.caption.8}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Barcode design. These barcodes can provide a pari-wide information to our network.\relax }}{11}{figure.caption.9}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces High-level structure of SPA-NET.\relax }}{14}{figure.caption.10}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces A visualization of the example single event output produced by SPA-NET. The top two plots are the projected b quark distribution, and the bottom two plots are the qq′ distribution respectively. \relax }}{15}{figure.caption.11}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Cutflow of all hadronic top decay. About hald of the events will be killed by the requirement of six quark jets. Only \nobreakspace {}20\% events survived after including two b-jets requirement.\relax }}{11}{figure.caption.8}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Barcode design. These barcodes can provide a pari-wide information to our network.\relax }}{13}{figure.caption.9}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces High-level structure of SPA-NET.\relax }}{16}{figure.caption.10}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces A visualization of the example single event output produced by SPA-NET. The top two plots are the projected b quark distribution, and the bottom two plots are the qq′ distribution respectively. \relax }}{17}{figure.caption.11}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces W boson mass reconstructed by $\chi ^{2}$ minimization method\relax }}{19}{figure.caption.13}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces W boson mass reconstructed by SPA-NET\relax }}{19}{figure.caption.14}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Top quark mass reconstructed by $\chi ^{2}$ minimization method\relax }}{20}{figure.caption.15}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Top quark mass reconstructed by SPA-NET\relax }}{20}{figure.caption.16}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces ROC curve of SPA-NET applies on events with one reconstructable top.\relax }}{21}{figure.caption.17}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces ROC curve of SPA-NET applies on events with two reconstructable top quarks.\relax }}{21}{figure.caption.18}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces W boson mass reconstructed by $\chi ^{2}$ minimization method.\relax }}{21}{figure.caption.13}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces W boson mass reconstructed by SPA-NET.\relax }}{21}{figure.caption.14}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Top quark mass reconstructed by $\chi ^{2}$ minimization method.\relax }}{22}{figure.caption.15}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Top quark mass reconstructed by SPA-NET.\relax }}{22}{figure.caption.16}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces ROC curve of SPA-NET applies on events with one reconstructable top.\relax }}{23}{figure.caption.17}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces ROC curve of SPA-NET applies on events with two reconstructable top quarks.\relax }}{23}{figure.caption.18}%
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Feynmann diagram of all hadronic ttH decay\cite {CMS:2019kgw}.\relax }}{30}{figure.caption.20}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Feynmann diagram of all hadronic four top decay\cite {CMS:2017ocm}.\relax }}{31}{figure.caption.21}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Average run-time for jet-assignment inference of SPA-NET and χ 2 on various events and jet multiplicities over 1000 runs. SPA-NETs were evaluated with a batch size of 1024 events. Timings are performed on an Intel I7 10700K CPU with 64 GB of RAM and Nvidia 3080 GPU.\relax }}{34}{figure.caption.24}%

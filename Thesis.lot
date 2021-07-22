@@ -1,9 +1,12 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Top quark pair decay process\cite {Zyla:2020zbs}\relax }}{4}{table.caption.4}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Top quark pair decay processes\cite {Zyla:2020zbs}.\relax }}{4}{table.caption.4}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Rule of cuts. All the cuts require a kinematic limitation that $p_{T} > 25$ GeV and $|\eta |<2.5$.\relax }}{9}{table.caption.7}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Rule of cuts. All the cuts require a kinematic limitation that $p_{T} > 25$ GeV and $|\eta |<2.5$.\relax }}{10}{table.caption.7}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Using $\epsilon $ as the symbol of efficiency. This table performs the efficiencies of the $\chi ^2$ and SPA-NET assignments assessed by per-event efficiency $\epsilon ^{event}$ and per-top efficiencies $\epsilon ^{top}$ inclusively and by jet multiplicity \ensuremath {N_\mathrm {jets}}. The subscript of $\epsilon ^{top}_{1}$ and $\epsilon ^{top}_{2}$ is stands for the one/two reconstructable events.\relax }}{18}{table.caption.12}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Using $\epsilon $ as the symbol of efficiency. This table performs the efficiencies of the $\chi ^2$ and SPA-NET assignments assessed by per-event efficiency $\epsilon ^{\rm event}$ and per-top efficiencies $\epsilon ^{\rm top}$ inclusively and by jet multiplicity \ensuremath {N_\mathrm {jets}}. The subscript of $\epsilon ^{\rm top}_{1}$ and $\epsilon ^{\rm top}_{2}$ is stands for the one/two reconstructable events.\relax }}{20}{table.caption.12}%
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces SPA-NET results on all hadronic ttH decay with at least $two$ b-tagged jets (all generated events). The ``all events'' category is the whole dataset without selections. The ``higgs events'' is a case considering the event that contains a reconstructable higgs boson. Top events focus on the category that has one or two reconstructable top quarks. Full events mean the events in this category should include all reconstructable targets.\relax }}{32}{table.caption.22}%
+\contentsline {table}{\numberline {A.2}{\ignorespaces SPA-NET results on all hadronic tttt decay with at least $2$ btagged jets (all generated events).\relax }}{33}{table.caption.23}%

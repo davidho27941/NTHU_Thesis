@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.6)  28 JUN 2021 21:09
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.6)  22 JUL 2021 14:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1278,16 +1278,21 @@ File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 ] (./Thesis.lof
 Missing character: There is no ′ (U+2032) in font [lmroman10-regular]:mapping=t
 ex-text;!
+File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
+<./Figures/nthu-logo.jpg>
+
+[4
+
+]
+Missing character: There is no χ (U+03C7) in font [lmroman10-regular]:mapping=t
+ex-text;!
 )
 \tf@lof=\write7
 \openout7 = `Thesis.lof'.
 
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
-
-[4
-
-]) (./Part/Introduction.tex
+ [5]) (./Part/Introduction.tex
 Chapter 1.
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
@@ -1298,13 +1303,6 @@ File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
  [2]
 Chapter 2.
-
-Overfull \hbox (2.74628pt too wide) in paragraph at lines 6--9
-\TU/lmr/bx/n/10.95 all hadronic channel\TU/lmr/m/n/10.95 , \TU/lmr/bx/n/10.95 s
-emi-leptonic channel\TU/lmr/m/n/10.95 , and \TU/lmr/bx/n/10.95 dileptonic chann
-el\TU/lmr/m/n/10.95 . The branch-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
@@ -1331,9 +1329,15 @@ File: Figures/attention.png Graphic file (type bmp)
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
  [4]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
- [5]
+[5]
+File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
+<./Figures/nthu-logo.jpg>
+ [6]
 Chapter 3.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 11.
@@ -1344,94 +1348,102 @@ Overfull \hbox (108.48672pt too wide) in paragraph at lines 12--13
  []
 
 
-Overfull \hbox (10.0047pt too wide) in paragraph at lines 7--28
-\TU/lmr/m/n/10.95 Graph_aMC@NLO(v2.7.2), Pythia8(v.8.2), and Delphes(v3.4.2) fo
-r showering, hadroniza-
+Overfull \hbox (2.88263pt too wide) in paragraph at lines 7--28
+\TU/lmr/m/n/10.95 Carlo simulator had been used to generate our dataset, includ
+ing MadGraph_aMC@NLO
  []
 
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
-[6
+[7
 
 ]) (./Part/EventReconstruction.tex
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
- [7]
+ [8]
 Chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
+Underfull \hbox (badness 10000) in paragraph at lines 3--7
 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
-[8
+[9
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+
+ []
+
 File: Figures/ttbar_cutflow.png Graphic file (type bmp)
 <Figures/ttbar_cutflow.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--35
-
- []
-
-File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
-<./Figures/nthu-logo.jpg>
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 37--39
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--44
+Underfull \hbox (badness 10000) in paragraph at lines 29--37
 
  []
 
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
 [10]
-File: Figures/barcode.pdf Graphic file (type pdf)
-<use Figures/barcode.pdf>
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
 
-Overfull \hbox (41.7143pt too wide) in paragraph at lines 48--49
- [][] 
  []
 
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
 [11]
+Underfull \hbox (badness 10000) in paragraph at lines 43--46
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 55.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\chi' on input line 55.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 55.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 55.
+ []
 
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
 [12]
-File: Figures/NetworkDiagramAlt.pdf Graphic file (type pdf)
-<use Figures/NetworkDiagramAlt.pdf>
+File: Figures/barcode.pdf Graphic file (type pdf)
+<use Figures/barcode.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--80
+Overfull \hbox (41.7143pt too wide) in paragraph at lines 51--52
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
 
  []
 
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
 [13]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 59.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\chi' on input line 59.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 59.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 59.
+
+File: Figures/NetworkDiagramAlt.pdf Graphic file (type pdf)
+<use Figures/NetworkDiagramAlt.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--84
+
+ []
+
+File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
+<./Figures/nthu-logo.jpg>
+[14]
+File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
+<./Figures/nthu-logo.jpg>
+ [15]
 File: Figures/typical_output.pdf Graphic file (type pdf)
 <use Figures/typical_output.pdf>
 Missing character: There is no ′ (U+2032) in font [lmroman12-regular]:mapping=t
@@ -1440,27 +1452,27 @@ Missing character: There is no ′ (U+2032) in font [lmroman12-regular]:mapping=
 ex-text;!
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
- [14]
-Underfull \hbox (badness 10000) in paragraph at lines 88--90
+ [16]
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--99
+Underfull \hbox (badness 10000) in paragraph at lines 99--103
 
  []
 
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 101--107
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 105--111
 
  []
 
 ) (./Part/Discussion.tex
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
- [16]
+ [18]
 Chapter 5.
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--35
@@ -1469,9 +1481,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--35
 
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
-[17
+[19
 
 ]
+File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
+<./Figures/nthu-logo.jpg>
+ [20]
 File: Figures/network_w_quark_stacked_chi2.pdf Graphic file (type pdf)
 <use Figures/network_w_quark_stacked_chi2.pdf>
 
@@ -1479,9 +1494,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--49
 
  []
 
-File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
-<./Figures/nthu-logo.jpg>
-[18]
 File: Figures/network_w_quark_stacked.pdf Graphic file (type pdf)
 <use Figures/network_w_quark_stacked.pdf>
 File: Figures/network_t_quark_stacked_chi2.pdf Graphic file (type pdf)
@@ -1490,7 +1502,7 @@ File: Figures/network_t_quark_stacked.pdf Graphic file (type pdf)
 <use Figures/network_t_quark_stacked.pdf>
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
- [19]
+[21]
 File: Figures/roc_one_quark.pdf Graphic file (type pdf)
 <use Figures/roc_one_quark.pdf>
 
@@ -1500,25 +1512,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--79
 
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
-[20]
+[22]
 File: Figures/roc_two_quark.pdf Graphic file (type pdf)
 <use Figures/roc_two_quark.pdf>
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
- [21]) (./Part/Conclusion.tex
+ [23]) (./Part/Conclusion.tex
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
- [22]
+ [24]
 Chapter 6.
 ) (./Part/Reference.tex
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
- [23
+ [25
 
 ]
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
- [24
+ [26
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 79--82
@@ -1533,20 +1545,73 @@ ps://
 
 File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
 <./Figures/nthu-logo.jpg>
-[25]) (./Thesis.aux)
+[27]
+File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
+<./Figures/nthu-logo.jpg>
+ [28]) (./Part/Appendix.tex
+Appendix A.
+File: Figures/all-had_ttH.png Graphic file (type bmp)
+<Figures/all-had_ttH.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--19
+
+ []
+
+File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
+<./Figures/nthu-logo.jpg>
+[29
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 20--22
+
+ []
+
+File: Figures/four_top_LO.png Graphic file (type bmp)
+<Figures/four_top_LO.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--32
+
+ []
+
+File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
+<./Figures/nthu-logo.jpg>
+[30] (./ttH_2_matrices.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 41--54
+
+ []
+
+File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
+<./Figures/nthu-logo.jpg>
+[31] (./tttt_2_matrices.tex)
+File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
+<./Figures/nthu-logo.jpg>
+ [32]
+File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
+<./Figures/nthu-logo.jpg>
+ [33]
+File: Figures/timing_plot.jpg Graphic file (type bmp)
+<Figures/timing_plot.jpg>
+Missing character: There is no χ (U+03C7) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no χ (U+03C7) in font [lmroman12-regular]:mapping=t
+ex-text;!
+)
+File: ./Figures/nthu-logo.jpg Graphic file (type bmp)
+<./Figures/nthu-logo.jpg>
+ [34] (./Thesis.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 2F3F80EAA04ACACE475F2DC60C525D37;3969.
+(rerunfilecheck)             Checksum: 86C9694E23D51749A7108586055A98AF;5382.
  ) 
 Here is how much of TeX's memory you used:
- 31423 strings out of 476919
- 649018 string characters out of 5821841
- 1003905 words of memory out of 5000000
- 50792 multiletter control sequences out of 15000+600000
+ 31470 strings out of 476919
+ 649919 string characters out of 5821841
+ 1007707 words of memory out of 5000000
+ 50827 multiletter control sequences out of 15000+600000
  415133 words of font info for 117 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 87i,16n,91p,2006b,1202s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,19n,91p,2012b,1202s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.pdf (34 pages).
+Output written on Thesis.pdf (44 pages).

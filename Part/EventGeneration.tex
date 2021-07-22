@@ -3,8 +3,8 @@
 %This chapter is organized as follow. Section \ref{VBF:CommonSelection} provides ...
 
 
-\section{MC samples}\label{sec:MC sample}
-For data preparation, we generate our dataset using a custom docker image with MadGraph\_aMC@NLO(v2.7.2), Pythia8(v.8.2), and Delphes(v3.4.2) for showering, hadronization, and detector simulation. We apply the ATLAS parametrization during detector simulation.  The data are generated at Leading Order(LO) quantum chromodynamics(QCD) and using the PDF set NNPDF23\_lo\_as\_0130\_qed. The top mass is configured as $m_{\rm top}=173$ GeV. The W quark decay is forced hadronically into a $(q, q')$ pair. The following is our configuration:
+\section{Simulation methods}\label{sec:MC sample}
+The procedure of preparing dataset is very important in the ML workflow. A set of Monte Carlo simulator had been used to generate our dataset, including MadGraph\_aMC@NLO (v2.7.2), Pythia8 (v.8.2), and Delphes (v3.4.2). Those simulation helped to calculate showering, hadronization, and detector simulation. We applied the ATLAS parametrization during detector simulation.  The data are generated at Leading Order (LO) quantum chromodynamics (QCD) and using the PDF set NNPDF23\_lo\_as\_0130\_qed. The top mass is configured as $m_{\rm top}=173$ GeV. The W quark decay is forced hadronically into a $(q, q')$ pair. The following is our configuration:
 \\
 \begin{adjustbox}{max width=\textwidth}
 \centering
